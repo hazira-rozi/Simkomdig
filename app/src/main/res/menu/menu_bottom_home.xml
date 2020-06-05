@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/bottomvideo"
+        android:icon="@drawable/ic_video_library_black_24dp"
+        android:title="@string/TOCvidtutor" />
+    <item
+        android:id="@+id/evaluasi"
+        android:icon="@drawable/ic_spellcheck_black_24dp"
+        android:title="@string/titleMateriEvaluas" />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        android:title="Bantuan" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="Tentang" />
+
+</menu>
