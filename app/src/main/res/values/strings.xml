@@ -60,7 +60,8 @@
 
     //Video
     <string name="TOCvid">Membuat Daftar Isi Otomatis</string>
-    <string name="TOCvidExcel">Membuat Diagram dengan Excel</string>
+    <string name="vidExcel">Membuat Diagram dengan Excel</string>
+    <string name="vidppt">Animasi pada PowerPoint</string>
     <string name="TOCvidtutor">Video Tutorial</string>
 
     //TableLayouts

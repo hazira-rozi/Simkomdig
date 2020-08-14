@@ -236,6 +236,10 @@ public class MainActivity extends AppCompatActivity{
                 vid = "bIgHRbZDCBI";
                 vidTitle = "Membuat Diagram dengan Excel";
                 break;
+            case R.id.buttonVideoAnim:
+                vid = "AoIK3-zcE_Y";
+                vidTitle ="Animasi pada presentasi";
+                break;
         }
 
         Intent intentVideo = new Intent(this, YoutubePlayerActivity.class);

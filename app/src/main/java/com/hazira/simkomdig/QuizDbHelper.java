@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class QuizDbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "QuizDBAwesome.db";
-    private static final int DATABASE_VERSION = 5;
+    private static final int DATABASE_VERSION = 6;
 
 
     private static QuizDbHelper instance;
@@ -86,7 +86,8 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         Question q17 = new Question("Untuk menjaga konstistensi jenis font, ukuran, dan pengatauran spasi maka fitur yg digunakan adalah","Header","Footer","Heading","Styles",4,1);addQuestion(q17);
         Question q18 = new Question("Untuk mengkases fitur daftar isi otomatis maka menu yang diakses adalah","Layout","View","References","Mailing",3,1);addQuestion(q18);
         Question q19 = new Question("Untuk mengatur posisi kertas (Horizontal/Vertikal) maka fitur yg digunakan","Orientation","Margins","Section Break","Gutter",1,1);addQuestion(q19);
-        Question q20 = new Question("Format dokumen berikut yang tidak bisa dibuat menggukan excel adalah",".docx",".xlsx",".xml",".html",2,1);addQuestion(q20);
+        Question q20 = new Question("Format dokumen berikut yang tidak bisa dibuat menggukan excel adalah",".docx",".xlsx",".xml",".html",1,2);addQuestion(q20);
+        Question q21 = new Question("Untuk menyimpan dokumen yang sedang dibuka dengan nama baru maka digunakan fitur...","Save","Share","Save as","Share as",3,1);addQuestion(q21);
     }
 
     private void addQuestion(Question question) {

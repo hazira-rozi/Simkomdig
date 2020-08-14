@@ -176,7 +176,8 @@ public class M1Q1Activity extends AppCompatActivity {
         rb4.setTextColor(textColorDefaultRb);
         rbGroup.clearCheck();
 
-        if (questionCounter < questionCountTotal) {
+        //questionCountTotal use if you want to show all questions
+        if (questionCounter < 10) {
             currentQuestion = questionList.get(questionCounter);
 
             textViewQuestion.setText(currentQuestion.getQuestion());
@@ -205,7 +206,7 @@ public class M1Q1Activity extends AppCompatActivity {
         if (backPressedTIme + 2000 > System.currentTimeMillis()) {
             finishQuiz();
         } else {
-            Toast.makeText(this, "Press back again to finish", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "Press back again to finish", Toast.LENGTH_SHORT).show();
         }
         backPressedTIme = System.currentTimeMillis();
     }

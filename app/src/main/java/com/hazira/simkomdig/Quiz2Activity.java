@@ -25,7 +25,7 @@ public class Quiz2Activity extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_quiz1);
+		setContentView(R.layout.activity_quiz2);
 
 		textViewHighscore = findViewById(R.id.materi2_quiz_1_highscore);
 		loadHighscore();
