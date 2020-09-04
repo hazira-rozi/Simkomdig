@@ -240,6 +240,9 @@ public class MainActivity extends AppCompatActivity{
                 vid = "AoIK3-zcE_Y";
                 vidTitle ="Animasi pada presentasi";
                 break;
+            case R.id.buttonVideoPascal:
+                vid = "77wNxyV8PZ4";
+                vidTitle = "Penerapan Algoritma";
         }
 
         Intent intentVideo = new Intent(this, YoutubePlayerActivity.class);

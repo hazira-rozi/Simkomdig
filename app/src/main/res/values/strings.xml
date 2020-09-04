@@ -31,17 +31,17 @@
     <string name="titleAbout">About</string>
     <string name="titleHelp">Help</string>
     <string name="titleMore">More</string>
-    <string name="titleMateri1">Simulasi dan Komunikasi Digital</string>
-    <string name="titleMateri2">Logika dan Algoritma</string>
-    <string name="titleMateri3">Pengelolaan Informasi</string>
-    <string name="titleMateri2_1">Penggalian Informasi</string>
-    <string name="titleMateri2_2">Peta Minda</string>
-    <string name="titleMateri3_1_1">Paragraf</string>
-    <string name="titleMateri3_1">Perangkat Lunak Pengolah Kata</string>
-    <string name="titleMateri3_2">Perangkat Lunak Pengolah Angka</string>
-    <string name="titleMateri3_3">Perangkat Lunak Presentasi</string>
-    <string name="titleMateri3_4">Teknik Presentasi</string>
-    <string name="titleMateri3_5">Ebook</string>
+    <string name="titleMateri1">Materi 1: Simulasi dan Komunikasi Digital</string>
+    <string name="titleMateri2">Materi 2 : Logika dan Algoritma</string>
+    <string name="titleMateri3">Materi 3 : Pengelolaan Informasi</string>
+    <string name="titleMateri2_1">Materi 2.1: Penggalian Informasi</string>
+    <string name="titleMateri2_2">Materi 2.1: Peta Minda</string>
+    <string name="titleMateri3_1_1">Materi 3.1: Paragraf</string>
+    <string name="titleMateri3_1">Materi 3.2: Perangkat Lunak Pengolah Kata</string>
+    <string name="titleMateri3_2">Materi 3.3: Perangkat Lunak Pengolah Angka</string>
+    <string name="titleMateri3_3">Materi 3.4: Perangkat Lunak Presentasi</string>
+    <string name="titleMateri3_4">Materi 3.5: Teknik Presentasi</string>
+    <string name="titleMateri3_5">Materi 3.6: Ebook</string>
     <string name="titleMateriLangkah">Langkah Kerja</string>
     <string name="titleMateriLatihan">Latihan</string>
     <string name="titleMateriEvaluas">Evaluasi</string>
@@ -62,6 +62,7 @@
     <string name="TOCvid">Membuat Daftar Isi Otomatis</string>
     <string name="vidExcel">Membuat Diagram dengan Excel</string>
     <string name="vidppt">Animasi pada PowerPoint</string>
+    <string name="vidpascal">Penerapan Algoritma pada Bahasa Pemrograman</string>
     <string name="TOCvidtutor">Video Tutorial</string>
 
     //TableLayouts

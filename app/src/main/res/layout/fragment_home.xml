@@ -183,7 +183,7 @@
                     android:textStyle="bold"
                     android:typeface="normal"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/buttoninfo2"
+                    app:layout_constraintStart_toEndOf="@+id/buttonparagraf"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
@@ -202,7 +202,7 @@
                     android:textStyle="bold"
                     android:typeface="normal"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/buttonword"
+                    app:layout_constraintStart_toEndOf="@+id/buttoninfo2"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
@@ -221,7 +221,7 @@
                     android:textStyle="bold"
                     android:typeface="normal"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/buttonparagraf"
+                    app:layout_constraintStart_toEndOf="@+id/buttonword"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button

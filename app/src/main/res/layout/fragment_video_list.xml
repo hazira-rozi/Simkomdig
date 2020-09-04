@@ -33,8 +33,8 @@
             android:id="@+id/buttonVideoTOC"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:backgroundTint="@color/design_default_color_background"
+            android:backgroundTint="@android:color/transparent"
+            android:backgroundTintMode="src_in"
             android:drawableTop="@drawable/wordplay"
             android:fontFamily="@font/quicksand_medium"
             android:onClick="PlayYTVideo"
@@ -53,7 +53,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:backgroundTint="@color/design_default_color_background"
+            android:backgroundTint="@android:color/transparent"
+            android:backgroundTintMode="src_in"
             android:drawableTop="@drawable/excelplay"
             android:fontFamily="@font/quicksand_medium"
             android:onClick="PlayYTVideo"
@@ -71,7 +72,9 @@
             android:id="@+id/buttonVideoAnim"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/design_default_color_background"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/transparent"
+            android:backgroundTintMode="src_in"
             android:drawableTop="@drawable/pptplay"
             android:fontFamily="@font/quicksand_medium"
             android:onClick="PlayYTVideo"
@@ -83,7 +86,29 @@
             android:typeface="normal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonVideoChart" />
+            app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+        <Button
+            android:id="@+id/buttonVideoPascal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="64dp"
+            android:backgroundTint="@android:color/transparent"
+            android:backgroundTintMode="src_in"
+            android:drawableTop="@drawable/pascalplay"
+            android:fontFamily="@font/quicksand_medium"
+            android:onClick="PlayYTVideo"
+            android:text="@string/vidpascal"
+            android:textAlignment="inherit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider6" />
 
         <View
             android:id="@+id/divider3"
@@ -105,9 +130,19 @@
             android:id="@+id/divider5"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:background="?android:attr/listDivider"
-            app:layout_constraintTop_toBottomOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonVideoChart" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonVideoAnim" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
