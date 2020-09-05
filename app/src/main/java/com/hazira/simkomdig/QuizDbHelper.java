@@ -88,6 +88,11 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         Question q19 = new Question("Untuk mengatur posisi kertas (Horizontal/Vertikal) maka fitur yg digunakan","Orientation","Margins","Section Break","Gutter",1,1);addQuestion(q19);
         Question q20 = new Question("Format dokumen berikut yang tidak bisa dibuat menggukan excel adalah",".docx",".xlsx",".xml",".html",1,2);addQuestion(q20);
         Question q21 = new Question("Untuk menyimpan dokumen yang sedang dibuka dengan nama baru maka digunakan fitur...","Save","Share","Save as","Share as",3,1);addQuestion(q21);
+        Question q22 = new Question("Penulisan formula sederhana dibawah ini yang benar adalah ...","=A1*A2","A1+A2=","= A1:A2","A1/A2=",1,1);addQuestion(q22);
+        Question q23 = new Question("Buku digital yang ada beredar saat ini jumlahnya sangat banyak dan terdapat beberapa jenis format buku digital yang biasa digunakan oleh masyarakat. Berikut ini yang bukan jenis format buku digital adalah ....","EPUB","PDF","JAVA","AZW",3,1);addQuestion(q23);
+        Question q24 = new Question("Pembuatan buku digital epub menggunakan beberapa aplikasi untuk mendukungnya. Contoh aplikasi yang digunakan sebagai ePub editor adalah ....","Ms Office","Sigil","Calibre","Photoshop",2,1);addQuestion(q24);
+        Question q25 = new Question("Pembuatan buku digital dengan format epub memiliki keunggulan dapat memasukan file video. Format file video yang dapat langsung digunakan dalam proses tersebut adalah ....","MKV","AVI","FLV","MP4",4,1);addQuestion(q25);
+        Question q25 = new Question("Sebuah informasi yang digunakan untuk mendeskripsikan Judul, Nama Pengarang, Tahun Penerbitan pada file buku digital epub terdapat pada .... ","Metadata","Daftar Isi","Index","Properties",1,1);addQuestion(q26);
     }
 
     private void addQuestion(Question question) {
