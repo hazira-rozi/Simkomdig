@@ -14,8 +14,8 @@ public class Quiz2Activity extends AppCompatActivity {
 	private static final int REQUEST_CODE_QUIZ = 1;
 //    public static final int EXTRA_QUIZ_KD_ID = 1;
 
-	public static final String SHARED_PREFS_M2Q1 = "sharedPrefs";
-	public static final String KEY_HIGHSCORE_M2Q1 = "keyHighscore";
+	public static final String SHARED_PREFS_M1Q1 = "sharedPrefs";
+	public static final String KEY_HIGHSCORE_M1Q1 = "keyHighscore";
 //    public static final int KEY_QUIZKD = 1;
 
 	private TextView textViewHighscore;
@@ -33,7 +33,7 @@ public class Quiz2Activity extends AppCompatActivity {
 		final Button buttonStartQuiz = findViewById(R.id.button_start_m2q1);
 		buttonStartQuiz.setOnClickListener(new View.OnClickListener() {
 			@Override
-			public void onClick(View viewM2Q1) {
+			public void onClick(View viewM1Q1) {
 				startQuiz();
 			}
 		});
@@ -42,7 +42,7 @@ public class Quiz2Activity extends AppCompatActivity {
 
 	private void startQuiz() {
 
-		String quizKDName = "Materi 2 - Quiz 1";
+		String quizKDName = "Quiz Materi Semester";
 		int value = 2;
 		Intent intent = new Intent(Quiz2Activity.this, M1Q1Activity.class);
 		intent.putExtra("quizKDID",value);
@@ -71,8 +71,8 @@ public class Quiz2Activity extends AppCompatActivity {
 	}
 
 	private void loadHighscore() {
-		SharedPreferences prefs = getSharedPreferences(SHARED_PREFS_M2Q1, MODE_PRIVATE);
-		highscore = prefs.getInt(KEY_HIGHSCORE_M2Q1, 0);
+		SharedPreferences prefs = getSharedPreferences(SHARED_PREFS_M1Q1, MODE_PRIVATE);
+		highscore = prefs.getInt(KEY_HIGHSCORE_M1Q1, 0);
 		textViewHighscore.setText("Highscore: " + highscore);
 	}
 
@@ -80,9 +80,9 @@ public class Quiz2Activity extends AppCompatActivity {
 		highscore = highscoreNew;
 		textViewHighscore.setText("Highscore: " + highscore);
 
-		SharedPreferences prefs = getSharedPreferences(SHARED_PREFS_M2Q1, MODE_PRIVATE);
+		SharedPreferences prefs = getSharedPreferences(SHARED_PREFS_M1Q1, MODE_PRIVATE);
 		SharedPreferences.Editor editor = prefs.edit();
-		editor.putInt(KEY_HIGHSCORE_M2Q1, highscore);
+		editor.putInt(KEY_HIGHSCORE_M1Q1, highscore);
 		editor.apply();
 
 	}
