@@ -177,7 +177,7 @@ public class M1Q1Activity extends AppCompatActivity {
         rbGroup.clearCheck();
 
         //questionCountTotal use if you want to show all questions
-        if (questionCounter < 10) {
+        if (questionCounter < questionCountTotal) {
             currentQuestion = questionList.get(questionCounter);
 
             textViewQuestion.setText(currentQuestion.getQuestion());
