@@ -57,6 +57,7 @@
     <string name="buttonQuiz">Mulai Latihan</string>
     <string name="menuVideo">Video</string>
     <string name="daftarVideo">Daftar Video</string>
+    <string name="Quiz">Quiz</string>
 
     //Video
     <string name="TOCvid">Membuat Daftar Isi Otomatis</string>

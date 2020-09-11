@@ -11,7 +11,7 @@
     <item
         android:id="@+id/evaluasi"
         android:icon="@drawable/ic_spellcheck_black_24dp"
-        android:title="@string/titleMateriEvaluas" />
+        android:title="@string/Quiz" />
     <item
         android:id="@+id/help"
         android:icon="@drawable/ic_help_outline_black_24dp"

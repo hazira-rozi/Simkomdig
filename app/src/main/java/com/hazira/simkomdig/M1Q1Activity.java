@@ -18,6 +18,7 @@ import java.util.Collections;
 public class M1Q1Activity extends AppCompatActivity {
 
     public static final String TOTAL_SCORE_M1Q1 = "totalScore";
+    public static final String TOTAL_SCORE_M1Q2 = "totalScore2";
     private static final String KEY_SCORE = "keyscore";
     private static final String KEY_QUESTION_COUNT = "keyQuestionCount";
     private static final String KEY_ANSWERED = "keyAnswered";
@@ -197,7 +198,17 @@ public class M1Q1Activity extends AppCompatActivity {
 
     private void finishQuiz() {
         Intent resultIntent = new Intent();
-        resultIntent.putExtra(TOTAL_SCORE_M1Q1, score);
+
+        Bundle bundles = getIntent().getExtras();
+
+        if(bundles != null) {
+            int quizid = bundles.getInt("quizKDID",1);
+            if(quizid == 1) {
+                resultIntent.putExtra(TOTAL_SCORE_M1Q1, score);
+            }else{
+                resultIntent.putExtra(TOTAL_SCORE_M1Q2,score);
+            }
+        }
         setResult(RESULT_OK, resultIntent);
         finish();
     }

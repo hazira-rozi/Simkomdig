@@ -35,7 +35,7 @@ public class Quiz1Activity extends AppCompatActivity {
 		if (getSupportActionBar() != null) {
 			getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 			getSupportActionBar().setDisplayShowHomeEnabled(true);
-			getSupportActionBar().setTitle("Quiz 1");
+			getSupportActionBar().setTitle("Quiz 1 - Pengolah Kata");
 		}
 		textViewHighscore = findViewById(R.id.materi1_quiz_1_highscore);
 		loadHighscore();
@@ -97,6 +97,7 @@ public class Quiz1Activity extends AppCompatActivity {
 		editor.apply();
 
 	}
+
 	public boolean onOptionsItemSelected(MenuItem items) {
 		switch (items.getItemId()) {
 //            case R.id.bottom_home:
